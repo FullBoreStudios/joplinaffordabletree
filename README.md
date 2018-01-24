@@ -4,8 +4,11 @@ This repository comprises the source code for a new and refreshed website for Af
 
 
 # Usage
-Please feel free to copy and use any part of the code, images and copy text are copyright Affordable Tree Service, LLC.
+Please feel free to copy and use any part of the code, images and copy text are copyright Affordable Tree Service, LLC. Site is live at http://joplintree.com
 
+New Site
+---
+![old web site](http://joplintree.com/new.jpg)
 
 Old Site
 ---
