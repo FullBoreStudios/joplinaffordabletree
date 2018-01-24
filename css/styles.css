@@ -1,0 +1,104 @@
+/* ________ ________          ________  _________  ___  ___  ________  ___  ________  ________
+|\  _____\\   __  \        |\   ____\|\___   ___\\  \|\  \|\   ___ \|\  \|\   __  \|\   ____\
+\ \  \__/\ \  \|\ /_       \ \  \___|\|___ \  \_\ \  \\\  \ \  \_|\ \ \  \ \  \|\  \ \  \___|_
+ \ \   __\\ \   __  \       \ \_____  \   \ \  \ \ \  \\\  \ \  \ \\ \ \  \ \  \\\  \ \_____  \
+  \ \  \_| \ \  \|\  \       \|____|\  \   \ \  \ \ \  \\\  \ \  \_\\ \ \  \ \  \\\  \|____|\  \
+   \ \__\   \ \_______\        ____\_\  \   \ \__\ \ \_______\ \_______\ \__\ \_______\____\_\  \
+    \|__|    \|_______|       |\_________\   \|__|  \|_______|\|_______|\|__|\|_______|\_________\
+                              \|_________|                                            \|_________|
+ > Author: Ben McNelly
+ > Date: 1-20-2018
+ > Client: Affordable Tree Service
+ > Quick Reference
+    % Global styles
+    $ Layout Tweaks and Bootstrap phreaks
+    & Responsive layout tweaks
+    ? Misc Hackjob Tweaks
+ ============================================================================*/
+
+
+/* % Global styles */
+
+body {
+  font-family: 'Oswald', sans-serif;
+}
+
+p {
+  font-size: 26px;
+}
+
+
+/* $ Layout Tweaks and Bootstrap phreaks */
+
+#header {
+  height: 270px;
+  background: linear-gradient(0deg, #440001, #640000);
+}
+
+/* ? Misc Hackjob Tweaks */
+
+#menu {
+  height: 42px;
+  background: #2a660e;
+  display: block;
+  border-top: solid 1px yellow;
+  border-bottom: solid 1px yellow;
+  color: white;
+  text-align: center;
+  font-size: 23px;
+
+}
+
+.menuitems {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menuitems a {
+  color: white;
+  text-shadow: #222;
+  max-width: 290px;
+}
+
+.menuitems a:link, a:hover, a:visited {
+  color: white;
+}
+
+.largeheader {
+  margin: 30px;
+}
+
+
+.smallheader {
+  min-width: 100px;
+  max-height: 250px;
+  display: block;
+  padding: 0px;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.jumboheader {
+  background: url(../images/house.jpg) no-repeat top left fixed;
+  background-size: cover;
+  color: white;
+}
+
+.jumbofooter {
+  background: url(../images/house.jpg) no-repeat top left fixed;
+  background-size: cover;
+  color: white;
+}
+
+.sectionlabel {
+  background: linear-gradient(90deg, #440001, #640000);
+  color: white; padding: 25px;
+}
+
+.footerplug {
+  max-height: 300px;
+}
+
+.onwhite a {
+  color: #007bff;
+}
